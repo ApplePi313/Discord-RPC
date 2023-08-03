@@ -23,14 +23,14 @@ while True:  # The presence will stay on as long as the program is running
         print(RPC.update(large_image="arch-linux", large_text="Arch Linux",
                      small_image="i712thgen", small_text="Intel i7-12700H",
                      details="RAM: " + str(mem_per) + "%  CPU: " + str(cpu_per) + "%",
-                     buttons=[{"label": "A Website", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}],
+                     buttons=[{"label": "Get This Yourself", "url": "https://github.com/ApplePi313/Discord-RPC"}, {"label": "A Website", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}],
                      start=psutil.boot_time(),
                      state="Kernel: " + os.uname().release))  # Set the presence
     else:
         print(RPC.update(large_image="arch-linux", large_text="Arch Linux",
                      small_image="nvidia", small_text="nVidia RTX 3060 Laptop GPU",
                      details="RAM: " + str(mem_per) + "%  CPU: " + str(cpu_per) + "%",
-                     buttons=[{"label": "A Website", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}],
+                     buttons=[{"label": "Get This Yourself", "url": "https://github.com/ApplePi313/Discord-RPC"}, {"label": "A Website", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}],
                      start=psutil.boot_time(),
                      state="OS: " + os.uname().release))  # Set the presence
 
