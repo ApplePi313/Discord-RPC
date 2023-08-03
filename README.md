@@ -7,6 +7,10 @@ the python program I use for my custom discord status
 
 # Install:
 - run git clone https://github.com/ApplePi313/Discord-RPC.git
-- to run, either execute run.sh(linux only) or run python sys_monitor.py
-- (linux only) if you want this to run on start, set run.sh to be run on start (for kde, this is System Settings > Startup and Shutdown > Autostart)
-- run.sh is for linux only because I don't use windows and am not bothered to figure out how to set that up
+
+(linux)
+- to run, either execute run.sh or run python sys_monitor.py
+- if you want this to run on start, set run.sh to be run on start (for kde, this is System Settings > Startup and Shutdown > Autostart)
+
+(windows)
+- run sys_monitor.py in comand prompt
